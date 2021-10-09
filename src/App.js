@@ -35,8 +35,8 @@ const validationSchema = yup.object({
   function App() {
     const formik = useFormik({
       initialValues: {
-        email: 'foobar@example.com',
-        password: 'foobar',
+        email: '',
+        password: '',
         age: '',
         website: '',
       },
